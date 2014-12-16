@@ -21,7 +21,7 @@ I think the "primary action" of the users should be to view the projects I have 
 
 ### Site map
 
-Your site map: ![site map](https://github.com/jroger2908/jroger2908.github.io/blob/master/site_map.jpg)
+Your site map: ![site map](https://github.com/jroger2908/jroger2908.github.io/blob/master/site-map.png)
 
 <!-- Your link to add it inline goes here-->
 
