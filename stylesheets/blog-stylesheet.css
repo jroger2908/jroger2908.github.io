@@ -1,0 +1,33 @@
+#header {
+display: block;
+background-color: green;
+float: center;
+}
+
+
+#blog {
+clear: left:;
+float:right;
+width: 750px;
+background-color: yellow;
+position: relative;
+
+}
+
+#sidebar {
+width: 250px;
+float: left;
+background-color: blue;
+float: left;
+height: 300px;
+position: fixed;
+
+
+}
+
+
+#footer {
+clear:both;
+float: center;
+
+}
