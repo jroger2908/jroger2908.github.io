@@ -1,0 +1,60 @@
+
+
+
+body {
+	background-color: #ffffff;
+
+}
+
+h3 {
+	text-align: center;
+	text: bold;
+	color: #000080;
+}
+
+#main {
+	float: left;
+	width: 500px;
+	height: 75px;
+}
+
+#sidebar {
+	float: right;
+	width:500px;
+	height: 75px; 
+}
+
+
+li {
+	margin: 20px;
+	
+}
+
+
+
+#footer {
+  position: absolute;
+   bottom:25px;
+   width:100%;
+   height:100px;
+
+
+}
+
+
+span {
+	font-size: 30px;
+}
+
+
+span2 {
+	font-size: 10px;
+}
+
+
+span3 {
+	font-size: 14px;
+}
+
+
+}
