@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CFBundleAllowMixedLocalizations</key>
+        <true/>
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>LSMinimumSystemVersion</key>
+        <string>10.6</string>
+        <key>LSRequiresCarbon</key>
+        <true/>
+        <key>CFBundleIdentifier</key>
+        <string>BalsamiqMockupsForDesktop.EDE15CF69E11F7F7D45B5430C7D37CC6C3545E3C.1</string>
+        <key>CFBundleGetInfoString</key>
+        <string>2.2.24, Balsamiq Studios, LLC - www.balsamiq.com</string>
+        <key>CFBundleShortVersionString</key>
+        <string>2.2.24</string>
+        <key>NSHumanReadableCopyright</key>
+        <string>Balsamiq Studios, LLC - www.balsamiq.com</string>
+        <key>CFBundleExecutable</key>
+        <string>Balsamiq Mockups</string>
+        <key>NSHighResolutionCapable</key>
+        <true/>
+        <key>CFBundleIconFile</key>
+        <string>Icon.icns</string>
+        <key>CFBundleDocumentTypes</key>
+        <array>
+            <dict>
+                <key>CFBundleTypeExtensions</key>
+                <array>
+                    <string>bmml</string>
+                </array>
+                <key>CFBundleTypeMIMETypes</key>
+                <array>
+                    <string>application/xml</string>
+                </array>
+                <key>CFBundleTypeName</key>
+                <string>Balsamiq Mockups Markup Language</string>
+                <key>CFBundleTypeRole</key>
+                <string>Editor</string>
+                <key>CFBundleTypeIconFile</key>
+                <string>DocumentIcon1.icns</string>
+            </dict>
+        </array>
+    </dict>
+</plist>
