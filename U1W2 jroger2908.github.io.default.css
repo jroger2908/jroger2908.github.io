@@ -1,0 +1,65 @@
+/* This is to use CSS to add styling to header and footer, style and position content, incorporate colors, format images*/
+
+body {
+	background-color: #9dc1e2;
+}
+
+img {
+	width: 200px;
+	height: auto;
+	float: left;
+
+}
+
+#nav {
+	text-align: center;
+	width: 20%
+	margin-left: 400px;
+	
+}
+
+#contact_info {
+	height: 200px;
+	width: 100px;
+	float: left;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 20px;
+}
+
+#blog_posts {
+	width: 500px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+#sidebar {
+	float: right;
+	margin-right: 25px;
+	background-color: grey;
+	height: 400px;
+	padding: 7px;
+}
+
+li {
+	margin-top: 3px;
+	font-style: bold;
+}
+
+a:link { 
+	color: blue;
+}
+
+a:visited { 
+	color: #660055;
+}
+
+a:hover { 
+	background-color: white;
+}
+
+#footer {
+	text-align: center;
+	clear: both;
+}
