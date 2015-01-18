@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <title>Week 4 Technical Blog Poast</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>Enumerables</h1>
+  <h3>Jonathan Roger</h3>
+  <h4>1/16/2015</h4>
+
+  <section>
+<p>In Ruby, Enumberables provide classes that have methods that are traveral, searching, and have the ability to sort. The each method is key to enumerables as it allows a method to iterate through each object.
+There are three key enumerable methods that we will discuss today. They are map, group_by, and cycle.
+<br>
+map is a method that takes an enumerable object and a block and will run the block for each element. It will output each returned value from the block. The original object will remain unchanged unless you use map! 
+<br>
+We will now square the values of an array to show you how map works.
+[1, 2, 3].map { |n| n * n } #=> [1, 4, 9] <br>
+The map function here goes through the array object by object and performs a function defined by the block which in this case is multiplying n by itself (n * n). 
+<br>
+group_by is another method commonly used in Ruby. This method will group the collection of an array by the result of a block. A good example is grouping an array by even or odd numbers. <br>
+[1, 2, 3, 4, 5, 6].group_by {|i| i%2]  #=> {0=>[2, 4, 6], 1=>[1, 3, 5]}
+As shown, the elements of the array are being grouped by whether they have a remainder of 0 (even numbers) or 1 (odd numbers).
+<br>
+cycle is a method that will call the block for each element in an array repeatedly forever or until you tell it to stop. A good example is cycling through part of the alphabet.
+<br>
+["a", "b", "c"].cycle { |letter| puts letter }  # print, a, b, c, a, b, c, a, b, c...forever <br>
+["a", "b", "c"].cycle(2) { |letter| puts letter } # print, a, b, c, a, b, c.
+<br>
+And there you have it. Some great examples of enumberators in Ruby.
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
