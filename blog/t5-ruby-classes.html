@@ -1,0 +1,47 @@
+<head>
+  <title>Ruby Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>Ruby Classes</h1>
+  <h2></h2>
+  <h4>1/23/2015</h4>
+
+  <section>
+    <p>
+     As we all known, Ruby is an object-oriented programming language(OOP). Everything revolves around objects in Ruby. One way to organize objects is to use Classes. Classes in Ruby are a blueprint from which individual objects are created. Take a car for example. A car wasn't developed from nothing. A car consists of wheels, an engine, a frame, gasoline combustion, pedeals, a transmission system etc. In Ruby, instead of creating individual objects for all of these parts and trying to organize them later, we could potentially organize them under the Class, Car.
+    </p>
+    <p>
+      A more practical example would be to write a Ruby program to keep track of ticket prices for an entertainment company. Not all tickets are created equal. Tickets are for different shows on different nights, different locations in the concert hall, and some have VIP access. A good way to organize these in Ruby would be to create a class. <br>
+    </p>
+    <p>
+        class Ticket  <br>
+          def initialize(show, venue, night, section) <br>
+            @show = show  <br>
+            @venue = venue   <br>
+            @night = night    <br>
+            @section = section  <br>
+          end <br>
+        end <br>
+
+        In the above example, we created a class 'Ticket', and initialized the arguments 'show', 'venue', 'night', and 'section'. These arguments have been made into instance variables, meaning they are available only in the class Ticket. <br>
+
+        To create a new ticket, we would do as follows <br>
+        ticket1 = Ticket.new  <br>
+        ticket2 = Ticket.new  <br>
+        ticket1("Kanye West", "The LC Pavilion", "Friday 1/23/2015", "215")   <br>
+        ticket2("Taylor Swift", "Columbus Convention Center", "Saturday 1/24/2015", "110")  <br>
+
+        Above, we created tickets for both Kanye West on Friday, 1/23/2015 at the LC Pavilion in Section 215 and for Taylor Swift on Saturday 1/24/2015 in the Columbus Convention Center in Section 110. What a weekend that would be! <br>
+
+        So there you have it. An example of how classes are used to organize objects in Ruby. 
+
+
+
+    </p>
+
+      
+  </section>
+</main>
