@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>My DBC BLog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>Ruby Variable scope</h1>
+  <h2></h2>
+  <h4>1/31/2015</h4>
+
+  <section>
+    <p>
+     In Ruby, a variable is an object that can contain any object. They are commonly used to hold strings and integers. Not all variables are created equal however. Today we will discuss the different types of variables. <br>
+     The types of variables we will discuss today are local variables, instance variables, class variable, global variable, and constants. There are other types of variables such as pseduo variables, pre-defined variables, and pre-defined constants that we will not discuss today as well. <br>
+     The first variable to talk about is a local variable. A local variable will begin with an lowercase letter (a-z) and may contain underscores. A local variable is accessible only inside the block it is initialized and cannot be accessed outside. <br>
+     def method   <br>
+          local_variable <br>
+      end <br>
+      Another type of variable is an instance variable. An instance variable begins with an '@'' sign followed by a lowercase word and potentially underscores. This type of variable is commonly used in classes and can be used anywhere inside the class. This allows for a larger scope than local variables. <br>
+      class Example <br>
+        def method <br>
+          @instance_variable <br>
+        end  <br>
+        p instance_variable <br>
+        end <br>
+       Next are class variables. These class variables are used by all instances of classes which means they can be accessed outside the scope of a class. They begin with '@@'' followed by lowercase letters and potentially underscores. Below is an example of a class variable being called outside a class as an instance of a class. <br>
+         class Example <br>
+        def method <br>
+          @class_variable <br>
+        end  <br>
+        p instance_variable <br>
+        end <br>
+        new_example = Example.new <br>
+        new_example.class_variable <br>
+        Global variables as the name suggests can be used anywhere. They begin with a '$' sign. While at first glance it may seem like every variable should be a global variable to allow access everywhere, global variables tend to be dangerous to use because they can be changed easily and interconnect many parts of a program making it difficult to implement new changes. <br>
+        A constant is like a variable except that it is supposed to remain unchanged. Although you can change a constant in Ruby, you will get a warning and it is advised not to do this. Constants are easy to spot because they are in all uppercase letters and can contain underscores. Constants are great for storing data that will remain unchanged through the duration of the program. <br>
+        And there you have it. An overview of variables in Ruby. Hope you enjoyed my post!
+
+
+
+
+    </p>
+
+      
+  </section>
+</main>
