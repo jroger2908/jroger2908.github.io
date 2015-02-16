@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <title>Ruby Cheat Sheet</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>Ruby Enumerables</h1>
+  
+  <section>
+    <p> <h3>About enumerables </h3>
+      Enumerables are mixins that provide collection classes with traversal and searching methods which have the ability to sort. Some common enumerables used are "each", "each_with_index", "map", "select", "inject", 
+    </p>
+    <p> <h4> each </h4>
+      This is a methods that belongs to Array and other collection classes. Each has the ability to iterate through a code block by each element in a collection. Below is an example. <br>
+      <br>
+      sports = ['football', 'soccer', 'basketball', 'hockey']   <br>
+      sports.each do |x|    <br>
+        puts x   <br>
+      end <br>
+          <br>
+       output: 'football' 'soccer' 'basketball' 'hockey'   <br>
+      Above, the each method allowed us to iterate through the array (sports) and output each element to the console. An important aspect of the each method is that it returns the same array unchanged. If you want to change an array, you need to use a different method.   <br>
+      <br>
+    </p>  
+    <p> <h4> each_with_index </h4>
+      Similar to the each method, each_with_index allows us to referrence the indices of an array. For example, if we wanted output only the even indices of an array, we would use the each_with_index method. <br>
+      numbers = [1, 2, 3, 4, 5, 6] <br>
+      numbers.each_with_index do |num, idx| <br>
+        puts numbers if idx % 2 == 0 <br>
+      end <br>
+      ouput: 2, 4, 6 <br>
+      As you can see above, we used each_with_index to interate through numbers to return only the even indices.
+    </p>  
+      
+    <p> <h4>map</h4>
+      Map is a very similar method to each. It iterates through each method of an array and will return the elements by the code back. The major difference between each and map is that map will return a modified array modified by the code block. Let's show an example. <br>
+      array = [1, 2, 3, 4, 5] <br>
+      modified_array = array.map do |x| x * 2 <br>
+      end <br>
+      puts array.join(", ")      output: 1, 2, 3, 4, 5 <br>
+      puts modified_array,join(", ")       output: -1, -2, -3, -4, -5 <br>
+      So what happened? Map returned a modified copy of the array. <br>
+    </p>
+    <p> <h4> select </h4>
+      Select is a method that takes in one argument. This block should pass some type of true and false method. <br>
+      array = [1, 2, 'dog', false] <br>
+      array.select {|x| x.class==Fixum}.join(', ') <br>
+      output: 1, 2   <br>
+      As shown above, our program only selected elements of the array that were fixum. <br>
+    </p>
+    <p> <h4> inject </h4>
+      The inject method will take a collection and reduce it to a single value. <br>
+      numbers = [1, 3, 5, 7].inject(0) do |total, num|
+        
+
+    </p>  
+  </section>
+</main>
