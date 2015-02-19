@@ -96,17 +96,17 @@ textarea {
    ========================================================================== */
 .pic {
     float: left;
-    margin: 2%;
+    margin: 1%;
 
 }
 .main {
-    margin: 2%;
+    margin: 1%;
     float: left;
     width: 45%;
 }
 
 .blog {
-    margin: 2%;
+    margin: 1%;
     float:left;
     width: 15%;
 
