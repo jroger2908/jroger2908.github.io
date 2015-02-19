@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .nav {
-    text-align: center;
+    
     display: inline;
     width: 100%;
 }
@@ -115,6 +115,7 @@ textarea {
     margin: 1%;
     float:left;
     width: 15%;
+    text-align: center;
 
 }
 
