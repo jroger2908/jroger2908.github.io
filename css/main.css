@@ -97,6 +97,7 @@ textarea {
 #nav li { 
 display: inline; 
 padding: 20px; 
+margin: 5px;
 }
 #menu a {
     text-decoration: none;
@@ -123,7 +124,7 @@ padding: 20px;
 }
 
 
-
+body { background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-32.jpg); background-repeat: repeat; }
 
 
 
