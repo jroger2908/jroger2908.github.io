@@ -95,9 +95,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.main {
+    margin: 2%;
+    float: left;
+    width: 70%;
+}
 
+.blog {
+    margin: 2%;
+    float:left;
+    width: 20%;
 
-
+}
 
 
 
