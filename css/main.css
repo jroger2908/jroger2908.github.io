@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .nav {
-    display: inline;
+    display: inline-block;
     width: 100%;
 }
 
