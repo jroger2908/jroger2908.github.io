@@ -94,12 +94,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.nav {
-    
-    display: inline;
-    width: 100%;
+#nav li { 
+display: inline; 
+padding: 20px; 
 }
-
+#menu a {
+    text-decoration: none;
+    color: #00F;
+    padding: 8px 8px 8px 8px;
+}
 .pic {
     float: left;
     margin: 1%;
