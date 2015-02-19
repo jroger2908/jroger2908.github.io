@@ -98,6 +98,7 @@ textarea {
 display: inline; 
 padding: 20px; 
 margin: 5px;
+color: black;
 }
 #menu a {
     text-decoration: none;
@@ -124,7 +125,7 @@ margin: 5px;
 }
 
 
-body { background-image: url(http://www.psdgraphics.com/file/lime-color-background.jpg/filename.gif); background-repeat: repeat; }
+body { background-image: url(http://www.psdgraphics.com/file/lime-color-background.jpg); background-repeat: repeat; }
 
 
 
